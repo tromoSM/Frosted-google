@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+     <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="description" content="Frosted Google by tromoSM – Glassmorphism-based Google redesign using CSS backdrop-filter for a Safari-like UI.">
+<meta name="author" content="tromoSM">
+<meta name="keywords" content="Frosted Google, Tampermonkey, Userscript, Google UI, Blur effect, CSS hack, tromoSM, frosted google, google glass, glassmorphism google, google blur, blurred google">
+<meta name="theme-color" content="#ffffff">
+
+<meta property="og:title" content="Frosted Google by tromoSM">
+<meta property="og:description" content="Frosted Google – A glassmorphism-style redesign for Google using CSS blur and backdrop-filter, by tromoSM.">
+<meta property="og:image" content="https://github.com/tromoSM/Frosted-google/blob/main/banner-050-scaled-fixed.png?raw=true">
+<meta property="og:url" content="https://github.com/tromoSM/Frosted-google">
+<meta property="og:type" content="website">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Frosted Google by tromoSM">
+<meta name="twitter:description" content="Frosted Google – Glassmorphism-style Google redesign with blur effects and Tampermonkey script.">
+<meta name="twitter:image" content="https://github.com/tromoSM/Frosted-google/blob/main/banner-050-scaled-fixed.png?raw=true">
+
+<title>Frosted Google™</title>
+<link rel="icon" href="https://github.com/tromoSM/Frosted-google/blob/main/google-logo-gradient-100by100-header-logo.png?raw=true" type="image/png">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="description" content="Frosted Google by tromoSM – Glassmorphism-based Google redesign using CSS backdrop-filter for a Safari-like UI.">
+<meta name="author" content="tromoSM">
+<meta name="keywords" content="Frosted Google, Tampermonkey, Userscript, Google UI, Blur effect, CSS hack, tromoSM, frosted google, google glass, glassmorphism google, google blur, blurred google">
+<meta name="theme-color" content="#ffffff">
+
+<meta property="og:title" content="Frosted Google by tromoSM">
+<meta property="og:description" content="Frosted Google – A glassmorphism-style redesign for Google using CSS blur and backdrop-filter, by tromoSM.">
+<meta property="og:image" content="https://github.com/tromoSM/Frosted-google/blob/main/banner-050-scaled-fixed.png?raw=true">
+<meta property="og:url" content="https://github.com/tromoSM/Frosted-google">
+<meta property="og:type" content="website">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Frosted Google by tromoSM">
+<meta name="twitter:description" content="Frosted Google – Glassmorphism-style Google redesign with blur effects and Tampermonkey script.">
+<meta name="twitter:image" content="https://github.com/tromoSM/Frosted-google/blob/main/banner-050-scaled-fixed.png?raw=true">
+
+<title>Frosted Google™</title>
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<meta name="apple-mobile-web-app-title" content="frosted™" />
+<link rel="manifest" href="/site.webmanifest" />
+
+    </head>
+<header>
+<div class="google"></div>
+<img class="header-logo-100" src="https://github.com/tromoSM/Frosted-google/blob/main/google-logo-gradient-100by100-header-logo.png?raw=true"><p class="header-title">Frosted <span class="g-ahh-font-span">Googl<span class="rotate-da-e">e</span></span><span class="position-fixe">™</span></p>
+<p class="right-s">for developers<img src="https://github.com/tromoSM/Frosted-google/blob/main/arrow.up.right-light.svg?raw=true" class="UI-svg-header"></p>
+</header>
+<div class="loading-my-ahh">
+    <div class="flex-load">
+    <h2 class="loadte">Loading resources..</h2></div>
+    <p class="loadte"><span class="load-stop-i-mean-lord-stop" id="load-stop-i-mean-lord-stop">force stop loading cover</span></p>
+<div class="load-ahh"></div>
+<div class="load-ahh"></div>
+<div class="load-ahh"></div>
+<div class="load-ahh"></div>
+<div class="load-ahh"></div>
+<div class="load-ahh"></div>
+<div class="load-ahh"></div>
+<div class="load-ahh"></div>
+<div class="load-ahh"></div>
+<div class="load-ahh"></div>
+<div class="load-ahh"></div>
+<div class="load-ahh"></div>
+<div class="load-ahh"></div>
+<div class="load-ahh"></div>
+<div class="load-ahh"></div>
+<div class="load-ahh"></div>
+<div class="load-ahh"></div>
+</div>
+<body>
+<p id="head" class="fake-head-none-display"></p>
+
+<br><br>
+<br><br>
+<img src="https://github.com/tromoSM/Frosted-google/blob/main/banner-050-scaled-fixed.png?raw=true" class="hero_header_full_image">
+<div class="center-position"><div class="button-centr-flex-ahh-class"><a href="https://github.com/tromoSM/Frosted-google/raw/refs/heads/main/Frosted%20Google%E2%84%A2.zip"><button class="button-download"><img class="logo-load" src="https://github.com/tromoSM/Frosted-google/blob/main/loader-button-ios-no-padding.gif?raw=true">Download</button></a><a href="#how-the-hell"><button class="button-how-the-fuq" >How to install</button></a><a href="#head"><button class="button-top-ahh"><img src="https://github.com/tromoSM/Frosted-google/blob/main/arrow.up.right-light.svg?raw=true" class="UI-btn-arroe"></button></a><button class="button-top-ahh" style="font-weight: 300;">©</button>
+</div></div>
+
+<section class="preview-ahh-section" id="preview16">
+    <div class="center-flex-wrp-wrp">
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/tromoSM/Frosted-google/blob/main/preview-1.png?raw=true"><div class="ani-observer"><img src="https://github.com/tromoSM/Frosted-google/blob/main/preview-1.png?raw=true" class="pre-get"><img src="https://github.com/tromoSM/Frosted-google/blob/main/arrow.up.right-light.svg?raw=true" class="UI-Get"></div></a>
+     <a  target="_blank" rel="noopener noreferrer" href="https://github.com/tromoSM/Frosted-google/blob/main/preview-2.png?raw=true"> <div class="ani-observer"><img src="https://github.com/tromoSM/Frosted-google/blob/main/preview-2.png?raw=true" class="pre-get"><img src="https://github.com/tromoSM/Frosted-google/blob/main/arrow.up.right-light.svg?raw=true" class="UI-Get"> </div></a>
+     <a  target="_blank" rel="noopener noreferrer" href="https://github.com/tromoSM/Frosted-google/blob/main/preview-3.png?raw=true"> <div class="ani-observer"><img src="https://github.com/tromoSM/Frosted-google/blob/main/preview-3.png?raw=true" class="pre-get"> <img src="https://github.com/tromoSM/Frosted-google/blob/main/arrow.up.right-light.svg?raw=true" class="UI-Get"></div></a>
+     <a  target="_blank" rel="noopener noreferrer" href="https://github.com/tromoSM/Frosted-google/blob/main/preview-4.png?raw=true">  <div class="ani-observer"><img src="https://github.com/tromoSM/Frosted-google/blob/main/preview-4.png?raw=true" class="pre-get"><img src="https://github.com/tromoSM/Frosted-google/blob/main/arrow.up.right-light.svg?raw=true" class="UI-Get"> </div></a>
+     <a   target="_blank" rel="noopener noreferrer"href="https://github.com/tromoSM/Frosted-google/blob/main/preview-5.png?raw=true">  <div class="ani-observer"><img src="https://github.com/tromoSM/Frosted-google/blob/main/preview-5.png?raw=true" class="pre-get"><img src="https://github.com/tromoSM/Frosted-google/blob/main/arrow.up.right-light.svg?raw=true" class="UI-Get"></div></a>
+    </div>
+</section>
+<section>
+    <br>
+    <h2 class="main">What is Frosted <span class="g-ahh-font-span">Googl<span style="position: absolute !important;" class="rotate-da-e">e</span></span><span  style="position: absolute !important;"  class="position-fixe">™</span></h2>
+<div class="main-ahh-des-cont">
+<p>Frosted google is a customized css file for google.com that make the boring static white glassormorphism also known as frosted glass or backdrop blur.
+   created by tromoSM.
+</p>
+</div>
+</section>
+<section id="how-the-hell" class="how">
+    <br>
+    <br>
+    <h2 class="main">How to install Frosted <span class="g-ahh-font-span">Googl<span style="position: absolute !important;" class="rotate-da-e">e</span></span><span  style="position: absolute !important;"  class="position-fixe">™</span> </h2>
+<div class="margin-observer-amart-ahh-title">
+    <ol> <li>Open Firefox and go to <code>about:config</code></li>
+    <li>Search for this preference: <code>toolkit.legacyUserProfileCustomizations.stylesheets</code></li>
+    <li>Double-click it to change its value to <strong>true</strong></li>
+    <li>Now Firefox will allow you to use <code>userContent.css</code> and <code>userChrome.css</code></li>
+    <li>Close and reopen firefox.</li>
+    <br>
+     <li>Go to <code>about:support</code></li>
+    <li>Scroll to <strong>Profile Folder</strong></li>
+    <li>Click <strong>“Open Folder”</strong></li>
+    <p>Inside that folder, if you don’t see a folder called <code>chrome</code>, create one.</p>
+     <li>Open the <code>chrome</code> folder inside your profile</li>
+     <li>Download the .css file from our site</li>
+     <li>Move the userContent.css file to inside the chrome folder you just created.</li>
+     <br>
+       <li>Open Firefox and go to <code>about:config</code></li>
+    <li>Search for this preference: <code>backdrop-filter</code></li>
+    <li>Set <code>layout.css.backdrop-filter.enabled</code> and <code>layout.css.backdrop-filter.force-enabled</code> 'True'</li>
+    <li>Close and reopen firefox.</li>
+    <br>
+    <li>Go to <a href="https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/">https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/</a> and install tampermonkey.(custom google logo)</li>
+    <li>Go to <a href="https://github.com/tromoSM/Frosted-google/raw/refs/heads/main/logo.user.js">github.com/tromoSM/Frosted-google/raw/refs/heads/main/logo.user.js</a> and you will redirected to 'custom logo' installation page.</li> 
+    <li>Click install and you're ready to go.</li>
+</ol>
+</div>
+</section>
+<section>
+    <br><br>
+    <h2 class="main">Download </h2>
+<div class="margin-observer-smart-ahh-title"> 
+    <a href="https://raw.githubusercontent.com/tromoSM/Frosted-google/refs/heads/main/userContent.css"> <button class="download-main-dumbahh-button">See .css file</button></a>
+<a href="https://github.com/tromoSM/Frosted-google/raw/refs/heads/main/Frosted%20Google%E2%84%A2.zip"><button class="download-main-dumbahh-button">Download .zip file</button></a>
+<br><br>
+<a  href="https://github.com/tromoSM/Frosted-google/raw/refs/heads/main/Frosted%20google%20dev%20--donotshare.zip"><button class="download-main-dumbahh-button">Download Developer .zip file</button></a>
+</div>
+</section><br>
+<div class="flex-no-res">
+<img src="https://github.com/tromoSM/Frosted-google/blob/main/hero-left-ahh-small-footer-loop-large.png?raw=true" class="hero-small-foot"><img src="https://github.com/tromoSM/Frosted-google/blob/main/hero-left-ahh-small-footer-loop-large.png?raw=true" class="hero-small-foot">
+</div>
+<footer>
+     <h2 class="h2-foot-main">Frosted <span class="g-ahh-font-span">Googl<span style="position: absolute !important;" class="rotate-da-e">e</span></span><span  style="position: absolute !important;"  class="position-fixe">™</span></h2>
+    <p class="footer-s" >by <a target="_blank" rel="noopener noreferrer" >tromoSM</a><img  style="transform: translateY(-3px);" src="https://github.com/tromoSM/Frosted-google/blob/main/arrow.up.right-light.svg?raw=true" class="UI-svg-header"></p>
+    <p style="text-align: left; background-color: #272727; padding: 2px 20px ; width: fit-content; border-radius: 5px;" class="footer-s">In compliance with <span><a href="https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa?utm_source=tromoSM-frostedgoogle.com" target="_blank" rel="noopener noreferrer" >COPPA</a><img style="transform: translateY(-3px);" src="https://github.com/tromoSM/Frosted-google/blob/main/arrow.up.right-light.svg?raw=true" class="UI-svg-header"></span>, we do not collect any personal data or use cookies from any of our users.</p>
+   
+    <p class="footer-s" id="fake-underline">Contact Us</p>    
+<p class="footer-s">© 2025 - Frosted <span class="span-ani-ahh-helper" style="animation-delay:0ms">G</span><span class="span-ani-ahh-helper" style="animation-delay:50ms">o</span><span class="span-ani-ahh-helper" style="animation-delay:100ms">o</span><span class="span-ani-ahh-helper" style="animation-delay:150ms">g</span><span class="span-ani-ahh-helper" style="animation-delay:200ms">l</span><span class="span-ani-ahh-helper" style="animation-delay:250ms">e</span> All rights reserved.
+<p class="footer-s">© 2025 - tromoSM. All rights reserved.</p>
+<!--
+glowing animation with the google's color palette too bad it lags 
+
+<div class="flex-no-res" style="animation: none;">
+    <div class="fotter-lagging-the-safari" style="animation-delay:0ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:50ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:100ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:150ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:200ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:250ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:300ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:350ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:400ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:450ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:500ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:550ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:600ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:650ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:700ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:750ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:800ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:850ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:900ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:950ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:1000ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:1050ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:1100ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:1150ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:1200ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:1250ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:1300ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:1350ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:1400ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:1450ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:1500ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:1550ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:1600ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:1650ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:1700ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:1750ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:1800ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:1850ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:1900ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:1950ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:2000ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:2050ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:2100ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:2150ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:2200ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:2250ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:2300ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:2350ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:2400ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:2450ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:2500ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:2550ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:2600ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:2650ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:2700ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:2750ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:2800ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:2850ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:2900ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:2950ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:3000ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:3050ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:3100ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:3150ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:3200ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:3250ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:3300ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:3350ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:3400ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:3450ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:3500ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:3550ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:3600ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:3650ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:3700ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:3750ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:3800ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:3850ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:3900ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:3950ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:4000ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:4050ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:4100ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:4150ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:4200ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:4250ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:4300ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:4350ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:4400ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:4450ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:4500ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:4550ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:4600ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:4650ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:4700ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:4750ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:4800ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:4850ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:4900ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:4950ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:5000ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:5050ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:5100ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:5150ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:5200ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:5250ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:5300ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:5350ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:5400ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:5450ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:5500ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:5550ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:5600ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:5650ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:5700ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:5750ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:5800ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:5850ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:5900ms"></div><div class="fotter-lagging-the-safari" style="animation-delay:5950ms"></div>
+
+</div>
+-->
+</footer><script>
+    window.addEventListener('load', () => {
+  const loader = document.querySelector('.loading-my-ahh');
+  
+  // Auto fade out after page load
+  if (loader) {
+    loader.classList.add('dawg');
+    setTimeout(() => {
+      loader.style.display = 'none';
+    }, 2000);
+  }
+
+  // Manual force hide on button click
+  const btn = document.getElementById('load-stop-i-mean-lord-stop');
+  if (btn && loader) {
+    btn.addEventListener('click', () => {
+      // Immediately remove animation and hide loader
+      loader.classList.remove('dawg'); // remove fade if running
+      loader.style.display = 'none';
+    });
+  }
+});
+
+</script>
+<style>
+    @font-face {
+        font-family: 'Google logo sans';
+        src: url("https://raw.githack.com/tromoSM/Frosted-google/refs/heads/main/ProductSans-Regular.ttf");
+    }@font-face {
+  font-family: 'SF Pro';
+  src: url('https://raw.githack.com/sahibjotsaggu/San-Francisco-Pro-Fonts/refs/heads/master/SF-Pro.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  /*
+  dear apple,
+  
+  what the hell man? why you keep tryna sue me over SF Pro. it's just a font. i mena its great thats why i use it but dawg you gotta chill.
+
+  -tromoSM
+  */
+} 
+ @font-face {
+        font-family: 'hell nah mono';
+        src: url("https://raw.githack.com/tromoSM/Tromo/refs/heads/main/SFMonoRegular.otf");
+    }
+
+html,body{
+    background-color: #0d0d0d;
+    width: 100%;
+    padding: 0;color: aliceblue;
+    margin: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.load-stop-i-mean-lord-stop{
+    padding: 5px 20px ;
+    transition: 0.2s;
+    background-color: aliceblue;box-shadow:
+  2px 0px 0px #3f5cff00,-2px -2px 0px #ff4c4c00;
+    color: #000000;
+}
+.loadte:nth-child(2){
+    right: 0 !important;
+    font-family: SF Pro;
+    transition: 0.3s;
+    cursor: pointer;
+
+}
+.logo-load{
+    width: 15px;
+    display: none;
+    filter: none;
+    opacity: 0;
+    align-self: center;
+    animation: rotates 0.7s linear infinite;
+}
+@keyframes rotates{
+    from{
+        rotate: 0deg;
+    }
+    to{
+        rotate: 360deg;
+    }
+}
+.button-download{
+    align-items: center;
+}
+.loadte:nth-child(2):hover .load-stop-i-mean-lord-stop{
+box-shadow:
+  2px 0px 20px #3f5cff,-2px -2px 20px #ff4c4c;
+
+}.loadte:nth-child(2):active{
+    scale: 0.8;
+}
+.load-ahh{
+    background-color: #34A853;
+    bottom: 0;
+    left: 1;
+    border-radius: 500px;
+    width: fit-content;filter: blur(50px);
+    padding: 20px;
+    position: fixed;
+    animation-delay: 500s !important;
+    opacity: 0;
+    animation: tropadding 1s ease  1  forwards;
+}.load-ahh:first-child {
+    background-color: #34A853;
+    animation-delay: 0s !important;
+}
+
+.load-ahh:nth-child(2) {
+    background-color: #ff4555;
+    animation-delay: 1s !important;
+}
+
+.load-ahh:nth-child(3) {
+    background-color: #3776ff;
+    animation-delay: 2s !important;
+}
+
+.load-ahh:nth-child(4) {
+    background-color: #ffd900;
+    animation-delay: 3s !important;
+}
+
+
+.load-ahh:nth-child(5) {
+    background-color: #34A853;
+    animation-delay: 4s !important;
+}
+
+.load-ahh:nth-child(6) {
+    background-color: #ff4555;
+    animation-delay: 5s !important;
+}
+
+.load-ahh:nth-child(7) {
+    background-color: #3776ff;
+    animation-delay: 6s !important;
+}
+
+.load-ahh:nth-child(8) {
+    background-color: #ffd900;
+    animation-delay: 7s !important;
+}
+
+.load-ahh:nth-child(9) {
+    background-color: #34A853;
+    animation-delay: 8s !important;
+}
+
+.load-ahh:nth-child(10) {
+    background-color: #ff4555;
+    animation-delay: 9s !important;
+}
+
+.load-ahh:nth-child(11) {
+    background-color: #3776ff;
+    animation-delay: 10s !important;
+}
+
+.load-ahh:nth-child(12) {
+    background-color: #ffd900;
+    animation-delay: 11s !important;
+}
+
+.load-ahh:nth-child(13) {
+    background-color: #34A853;
+    animation-delay: 12s !important;
+}
+
+.load-ahh:nth-child(14) {
+    background-color: #ff4555;
+    animation-delay: 13s !important;
+}
+
+.load-ahh:nth-child(15) {
+    background-color: #3776ff;
+    animation-delay: 14s !important;
+}
+
+.load-ahh:nth-child(16) {
+    background-color: #ffd900;
+    animation-delay: 15s !important;
+}
+
+
+@keyframes tropadding{
+    from,to{
+        padding: 20px;
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+        padding: 75px;
+    }
+}
+.loadte{
+    text-align: center;
+    font-family: SF Pro;
+}
+.flex-load{
+    justify-content: center;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+}
+.loading-my-ahh{
+    height: 100vh;
+}
+.fotter-lagging-the-safari{
+   animation: glow-ahh-fake-ani 5s linear 0ms infinite;
+   width: fit-content;
+   height: 30px;
+   filter: blur(20px);
+   position: fixed;
+   padding: 0px 10px;
+}
+@keyframes blurr{
+    from,to{
+   filter: blur(30px);
+
+    }
+    50%{
+   filter: blur(40px);
+
+    }
+}
+
+.span-ani-ahh-helper{
+    animation-name: glow-border-ahh;
+    animation-fill-mode: forwards;
+    animation-duration: 3s;
+    border-bottom: 2px solid;
+    animation-iteration-count: infinite;
+}
+strong{
+     font-family: BlinkMacSystemFont,helvetica, sans-serif;
+    font-weight: 600;
+
+}
+.google{
+    background-color: red;
+    position: fixed;
+    z-index: 0 !important; 
+    right: 0;
+    padding: 10px 20px;
+    filter: blur(30px);
+    width: fit-content;
+    animation: glow-ahh-fake-ani 5s linear 0ms infinite,grow-ahh-fake-ani 7s linear 0ms infinite;
+    
+}
+@keyframes glow-ahh-fake-ani {
+    0%{
+        background-color: #4285F4;
+    }
+    25%{
+        background-color: 	#EA4335;
+    }
+    50%{
+        background-color: #FBBC05;
+    }
+  75%{
+    background-color: #34A853;
+  } 100%{
+        background-color: #4285F4;
+    }
+
+
+}@keyframes glow-border-ahh {
+    0%{
+       border-bottom: #4285F4  2px solid;
+    }
+    25%{
+          border-bottom: 	#EA4335  2px solid;
+    }
+    50%{
+       border-bottom:  #FBBC05  2px solid; 
+    }
+  75%{
+       border-bottom:  #34A853  2px solid;
+  } 100%{
+          border-bottom:  #4285F4  2px solid;
+    }
+
+
+}
+@keyframes grow-ahh-fake-ani {
+    from,to{
+        padding: 10px 20px;
+    }
+    50%{
+        padding: 10px 60px;
+    }
+
+}.loadera{
+   padding: 50px;
+   width: fit-content;
+   position: absolute;
+    background-color: aqua;
+}
+#fake-underline{
+    text-decoration: 1px solid underline aliceblue;
+    color: aliceblue !important;
+}
+.flex-no-res{
+    display: flex;
+    animation-name: s;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+@keyframes s{
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(-100vw);
+    }
+}
+*:link,*:visited{
+    color: inherit !important;
+}
+.footer-s{
+     font-family: SF Pro, system-ui, -apple-system, BlinkMacSystemFont,helvetica, SF Pro Display, sans-serif;
+font-weight: 400;
+}
+.footer-s a{
+    transition: 0.2s ease-out;
+
+}
+#fake-underline:hover .UI-svg-header{
+transform: translate(-3px, -2px);
+
+}
+footer{
+    width: 100%;
+    background-color: #2e2e2e;
+    padding: 5px 12px;
+}
+.h2-foot-main{
+      font-family: SF Pro, system-ui, -apple-system, BlinkMacSystemFont,helvetica, SF Pro Display, sans-serif;
+font-weight: 400;
+}
+.main-ahh-des-cont{
+    margin:0px 50px;
+   background-color: #272727;
+   padding: 2px 20px;
+   border-radius: 15px;
+   font-family: SF Pro, system-ui, -apple-system, BlinkMacSystemFont,helvetica, SF Pro Display, sans-serif;
+}
+button{
+    cursor: pointer;
+}
+.hero-small-foot{
+    width: 100vw;
+}
+.margin-observer-smart-ahh-title{
+    margin-left: 50px;
+}
+.download-main-dumbahh-button{   font-family: SF Pro, system-ui, -apple-system, BlinkMacSystemFont,helvetica, SF Pro Display, sans-serif;
+
+    font-size: medium;
+    padding: 5px 20px;
+    text-decoration: none;
+    background-color: aliceblue;
+    color: black;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 0px aliceblue;
+    transition: 0.3s;
+    border-radius: 50px;
+
+}
+.download-main-dumbahh-button:hover{
+    padding: 5px 30px;
+    transition: 0.2s;
+}
+.download-main-dumbahh-button:active{
+    scale: 0.8;
+}
+.download-main-dumbahh-button:focus{
+    box-shadow: 0px 0px 20px rgba(240, 248, 255, 0.452);
+}
+li{
+gap: 2px;
+margin-bottom: 7px;
+}
+.how{
+    font-family: SF Pro;
+}
+code {
+      background: #2e2e2e;
+      padding: 2px 6px;
+      font-weight: 300 !important;
+      border-radius: 5px;
+      font-family: hell nah mono,Consolas, monospace;
+    }
+.main{
+    font-weight: 400;
+      font-family: SF Pro, system-ui, -apple-system, BlinkMacSystemFont,helvetica, SF Pro Display, sans-serif;
+
+color: aliceblue;
+padding-left: 10px;
+border-left: 5px solid aliceblue;
+}
+.fake-head-none-display{
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    visibility: hidden;
+}
+.right-s{
+    right: 0;
+    cursor: pointer;
+    font-size: medium;
+    margin-right: 30px;
+    position: fixed;
+    text-decoration: underline 1px solid rgba(240, 248, 255, 0);
+}
+.right-s:hover{
+    text-decoration: underline 1px solid aliceblue;
+}
+.UI-svg-header{
+    width: 10px;align-items: top;
+transform: translate(0px, 0px) rotate(0deg);
+    stroke-width: 5px;
+    margin-left: 2px;
+    transition: 0.3s;
+}
+.right-s:hover .UI-svg-header{
+transform: translate(2px, -2px);
+transition: 0.1s;
+}
+.UI-Get{
+   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.9);
+  width: 40px; 
+  height: 32px;fill: white !important;
+  stroke: white;    filter: blur(0px) brightness(100);
+
+  opacity: 0;
+  transition: 0.3s;
+  pointer-events: none;
+}
+.ani-observer{
+     max-width: 220px;display: inline-block;
+     transition: 0.3s;
+    aspect-ratio: 20 / 9;
+     width: 100%; 
+      object-fit: cover; 
+     scale: 1 !important;
+      overflow: hidden;   position: relative;
+}
+.ani-observer:hover .UI-Get{
+  transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+}
+.ani-observer:hover .pre-get{
+     transition: 0.3s;
+     filter: blur(5px) brightness(0.5);
+transform: scale(1.3);
+
+}
+.center-flex-wrp-wrp{
+display: flex;
+      justify-content: center;
+      align-items: center;
+                 gap: 5px; 
+      flex-wrap: wrap;
+      box-sizing: border-box;
+      margin: 0;
+      overflow: auto; 
+}
+.pre-get{    
+     transition: 0.3s;
+max-width: 220px; width: 100%;
+      object-fit: cover; 
+      position: relative;
+
+    aspect-ratio: 20 / 9;
+}
+
+.center-position{
+     display: flex;
+      justify-content: center;
+      align-items: center;
+                 gap: none; 
+      flex-wrap: wrap;
+      box-sizing: border-box;
+      margin: 0;
+      overflow: auto; 
+     
+}
+.button-top-ahh:active{
+    scale: 0.8;
+}
+.button-top-ahh{
+    background-color: #ffffff00;
+          padding: 5px 7px ;    font-family: SF Pro, system-ui, -apple-system, BlinkMacSystemFont,helvetica, SF Pro Display, sans-serif;
+
+    font-size: medium;
+     border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.541);
+    cursor: pointer;
+    color: aliceblue;
+    outline: none;
+    margin: 0px 5px;
+    border-radius: 50px;
+    transition: 0.1s background-color, border 0.3s,filter 0ms,0.2s scale;
+
+}
+.button-top-ahh:hover .UI-btn-arroe{
+    filter: brightness(0);
+}
+.button-top-ahh:hover{
+       border: 1px solid rgb(255, 255, 255);
+       color: #000000;
+    background-color: rgb(255, 255, 255);
+}
+.UI-btn-arroe{
+    transform: rotate(-45deg);
+    width: 15px;
+}
+.button-centr-flex-ahh-class{
+     bottom: 0;
+     margin: 3px;
+      background-color: #000000;
+      padding: 7px 20px ;
+      position: fixed;
+    z-index: +9999999999999999999999999999999;
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-radius: 50px;
+} 
+ @supports ((backdrop-filter: blur(20px)) or (-webkit-backdrop-filter: blur(20px))) {
+ .button-centr-flex-ahh-class{
+     background-color: #0000008e;backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+  }}
+.button-download,.button-how-the-fuq{
+    padding: 5px 20px;
+      font-family: SF Pro, system-ui, -apple-system, BlinkMacSystemFont,helvetica, SF Pro Display, sans-serif;
+
+    font-size: medium;
+     border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.541);
+    box-shadow: 0px 0px 0.1px rgb(248, 176, 255);
+    color: aliceblue;
+    outline: none;
+    margin: 0px 5px;
+    transition: 0.1s background-color, border 0.3s,color 0ms,0.2s scale;
+}
+.button-download:hover,.button-how-the-fuq:hover{
+     border: 1px solid rgb(255, 255, 255);
+     color: black;
+    background-color: rgb(255, 255, 255);
+}
+.button-download:active,.button-how-the-fuq:active{
+    scale: 0.8;
+}
+.button-download:focus img{
+    opacity: 1;
+    display: inline-block;
+}
+
+.position-fixe{
+    transform: translateX(12px);
+    position: fixed;
+}
+.rotate-da-e{
+    transform: rotate(-12deg) !important;
+    position: fixed;
+}
+.g-ahh-font-span{
+    font-family: Google logo sans;
+}
+.hero_header_full_image{
+    width: 100vw;
+    pointer-events: none;
+}
+.header-logo-100{
+    width: 20px;
+    margin-left: 10px;
+    padding: 1px;
+    transition: 0.3s;
+    border-radius: 500px;  animation-name: col;
+        animation-duration: 15s;
+ 
+        animation-iteration-count: infinite;
+        animation-play-state: paused;
+        animation-timing-function: linear;
+}   @keyframes col{
+        0%{
+            filter: hue-rotate(-0deg);
+           
+        }
+        
+        100%{
+            filter: hue-rotate(-360deg) ;
+           
+        }
+    }
+header:hover .header-logo-100{
+background-color: rgb(255, 255, 255);
+        animation-play-state: running;
+filter: hue-rotate(50deg);
+}
+.header-title{
+    padding: 0px 0px 0px 7px;
+    transform: translateY(2px);
+    margin: 0;
+}
+   header{
+            position: fixed;
+            display: flex;
+            overflow-y: hidden;
+            justify-content: left;
+            align-items: center;
+            border-bottom: 1px solid rgb(56, 56, 56);
+            font-size: larger;
+            font-family: SF Pro;
+            backdrop-filter: blur(15px);
+            padding: 5px 2px;
+            z-index: +9999999999999999999999999999999999999999999999999999999999999999999 !important;
+            -webkit-backdrop-filter: blur(15px);
+            background-color: #0d0d0d;
+            width: 100vw;
+        }
+        @supports ((backdrop-filter: blur(15px)) or (-webkit-backdrop-filter: blur(15px))) {
+  header {
+    background: rgba(0, 0, 0, 0.24);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+            color: #ffffff;
+    border-bottom: none;  
+    
+}}.loading-my-ahh.dawg {
+  animation: dawg 1s ease forwards;
+  animation-delay: 1s; 
+}
+
+@keyframes dawg {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+</style><script>
+  window.addEventListener('load', () => {
+    const loader = document.querySelector('.loading-my-ahh');
+    if (loader) {
+      loader.classList.add('dawg');
+      setTimeout(() => {
+        loader.style.display = 'none';
+      }, 2000);
+    }
+  });
+</script>
+</html>
+
