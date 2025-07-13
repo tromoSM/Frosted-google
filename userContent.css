@@ -212,6 +212,9 @@ html body#gsr.srp div#main.main div#cnt.e9EfHf div#rcnt.YNk70c.NbTBrb.GyAeWb.tXI
 @-moz-document url-prefix("https://www.google.com/search?client=firefox-b-d&q=SM"),
                 url-prefix("https://www.google.com/search?client=firefox-b-d&q=sm+"),
                url-prefix("https://www.google.com/search?client=firefox-b-d&q=SM+"),
+               url-prefix("https://www.google.com/search?q=SM&sca_esv=399c0ef47b788551&hl=en&sxsrf=AE3TifOhwYvk_Uf-qkYZr-_k1WZMxTpRfw%3A1752393494423&source=hp&ei=FmdzaMf8F9aSseMPtLuEuAw&iflsig=AOw8s4IAAAAAaHN1JhlJYtTOqbpEMBSRVwAHaxWpF3Rn&ved=0ahUKEwjH3_W9rrmOAxVWSWwGHbQdAccQ4dUDCBc&uact=5&oq=SM&gs_lp=Egdnd3Mtd2l6IgJTTTIKECMYgAQYJxiKBTIQEC4YgAQY0QMYQxjHARiKBTIQEC4YgAQY0QMYQxjHARiKBTIKEAAYgAQYQxiKBTIQEAAYgAQYsQMYQxiDARiKBTILEAAYgAQYsQMYgwEyDhAuGIAEGLEDGMcBGK8BMhAQLhiABBjRAxhDGMcBGIoFMgoQABiABBhDGIoFMggQABiABBixA0jCE1DeD1juEHABeACQAQCYAV-gAbwBqgEBMrgBA8gBAPgBAZgCA6AC1QGoAgrCAg0QIxjwBRgnGMkCGOoCwgIHECMYJxjqAsICChAjGPAFGCcY6gKYAwrxBRI673LgNcpGkgcDMS4yoAemG7IHAzAuMrgHywHCBwUyLTIuMcgHFQ&sclient=gws-wiz"),
+               url-prefix("https://www.google.com/search?q=sm&sca_esv=399c0ef47b788551&hl=en&sxsrf=AE3TifOigmwu0tIF_C7cRtawxOV2EmsOLA%3A1752393410693&source=hp&ei=wmZzaOf5J92e4-EP0qDq2Aw&iflsig=AOw8s4IAAAAAaHN00u3G6MKJfOG7ooZ_3fFY69sTfru2&ved=0ahUKEwjn4v6VrrmOAxVdzzgGHVKQGssQ4dUDCBc&uact=5&oq=sm&gs_lp=Egdnd3Mtd2l6IgJzbTIKECMYgAQYJxiKBTIQEC4YgAQY0QMYQxjHARiKBTIQEC4YgAQY0QMYQxjHARiKBTIKEAAYgAQYQxiKBTIQEAAYgAQYsQMYQxiDARiKBTILEAAYgAQYsQMYgwEyDhAuGIAEGLEDGMcBGK8BMhAQLhiABBjRAxhDGMcBGIoFMgoQABiABBhDGIoFMggQABiABBixA0jpElCHBlj2B3ABeACQAQCYAW2gAdcBqgEDMC4yuAEDyAEA-AEBmAIDoAL2AagCCsICBxAjGCcY6gLCAg0QIxjwBRgnGMkCGOoCwgIKECMY8AUYJxjqApgDD_EFzGevF_xrtDWSBwMxLjKgB6YbsgcDMC4yuAfnAcIHBTItMS4yyAcZ&sclient=gws-wiz"),
+               url-prefix("https://www.google.com/search?q=SM&sca_esv=399c0ef47b788551&hl=en&sxsrf=AE3TifMDpqJ5Y5Fcy6-zRXyERHUQmka_sA%3A1752393451999&source=hp&ei=62ZzaM3ALYKb4-EP4bivsA4&iflsig=AOw8s4IAAAAAaHN0-3iba-zCZh50kzXDBF8P3OLDyEKJ&ved=0ahUKEwiN4sqprrmOAxWCzTgGHWHcC-YQ4dUDCBc&uact=5&oq=SM&gs_lp=Egdnd3Mtd2l6IgJTTTIKECMYgAQYJxiKBTIQEC4YgAQY0QMYQxjHARiKBTIQEC4YgAQY0QMYQxjHARiKBTIKEAAYgAQYQxiKBTIQEAAYgAQYsQMYQxiDARiKBTILEAAYgAQYsQMYgwEyDhAuGIAEGLEDGMcBGK8BMhAQLhiABBjRAxhDGMcBGIoFMgoQABiABBhDGIoFMggQABiABBixA0isBlAAWL4BcAB4AJABAJgBYqABwgGqAQEyuAEDyAEA-AEBmAICoALWAZgDAJIHAzAuMqAHphuyBwMwLjK4B9YBwgcFMi0xLjHIBxA&sclient=gws-wiz"),
             url-prefix("https://www.google.com/search?client=firefox-b-d&q=sm") {
 
 .wHYlTd{
@@ -375,5 +378,6 @@ word logo pinned fixed in the header ------ .logo
 © 2025 - tromoSM. All rights reserved (css)
 Contact Us - @tromoSM (x.com)
 
-Last updated on {2025.07.10 as YYYY.MM.DD}
+Last updated on {2025.07.13 as YYYY.MM.DD}
+version --1..55 >
 */
