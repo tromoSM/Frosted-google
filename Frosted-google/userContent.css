@@ -1,0 +1,383 @@
+@-moz-document url-prefix("https://www.google.com/") {
+ @font-face {
+  font-family: 'SF Pro';
+  src: url('https://raw.githack.com/sahibjotsaggu/San-Francisco-Pro-Fonts/refs/heads/master/SF-Pro.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+} .minidiv .sfbg{
+  height: 72px;
+  overflow: hidden;
+  background: #0000007e !important; 
+  backdrop-filter: blur(15px) !important;
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.28) !important;
+}
+html body.EIlDfe div#yDmH0d.MCcOAc.IqBfM.EWZcud.LcUz9d.e2G3Fb.cjGgHb.d8Etdd c-wiz.SSPGKf div.T4LgNb.eejsDc div.kFwPee c-wiz div.qWuU9c{
+  background-color: black;
+}
+.yMAEcf,.aajZCb,html body#gsr.srp div#searchform.CvDJxb.YNk70c div.NDnoQ.P3mIxe form#tsf.tsf div div.A8SBwf.emcav div#_jR5saOLmL96O4-EPloe8wAc_5 div.UUbT9.EyBRub div.aajZCb{
+  color: aliceblue !important;
+  
+  background: #0000007e !important; 
+  backdrop-filter: blur(25px) !important;
+}
+.EHzcec,.o83JEf {
+  background: #0000 !important;
+  backdrop-filter: blur(15px) !important;
+}
+
+
+.RNNXgb{
+  background-color: rgba(0, 0, 0, 0.541) !important;
+  color: aliceblue !important;
+  border: none !important;
+}
+.XDyW0e,.nDcEnd,.z1asCe svg,.gb_F,.minidiv .goxjub,.minidiv .Gdd5U,.minidiv .Tg7LZd svg,html body#gsr.srp div#searchform.CvDJxb.YNk70c div.NDnoQ.P3mIxe form#tsf.tsf div div.A8SBwf.pD4qTd.emcav div#_Dh9saNb3H5iXseMP-8fKyQg_5 div.UUbT9.EyBRub div.aajZCb div#Alh6id.mkHrUc div.erkvQe div.OBMEnb ul.G43f7e li.sbct.PZPZlf div.eIPGRd div.sbic.sb43{
+  filter: brightness(1000)  !important;
+}
+.cRV9hb .pcTkSc .ClJ9Yb span,.cRV9hb .pcTkSc .wM6W7d span{
+  color: rgb(255, 255, 255) !important;
+}
+.gb_F:hover,.minidiv .goxjub:hover,.minidiv .Gdd5U:hover,.minidiv .Tg7LZd svg:hover{
+  scale: 0.9 !important;
+  cursor: pointer;
+}
+.o6OF0 .eIPGRd,.DJbVFb, .o6OF0{
+  background: rgba(0, 0, 0, 0.329) !important;
+border-radius: 15px !important;
+}
+.o6OF0 .SHFPkb,.o6OF0 .bTSf5c{
+  color: aliceblue !important;
+}
+html body div.L3eUgb div.o3j99.LLD4me.yr19Zb.LS8OJ div.k1zIA.rSk4se svg.lnXdpd{
+  filter: drop-shadow(0px 0px 5px  rgb(255, 168, 204)) !important;
+}
+.sbct:hover,.sbct:focus{
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.329) !important;
+}
+
+.lJ9FBc input[type="submit"], .f1pnbf, .gbqfba {
+ background-color: rgba(0, 0, 0, 0.445) !important;
+  color: aliceblue !important;
+  padding: 5px 10px !important;
+  border-radius: 40px !important;
+  align-items: center !important;
+  font-family: SF Pro, Google sans,arial !important;
+}
+
+.IDVnvc:hover{
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.356) !important;
+  
+  
+}.IDVnvc{
+  font-family: SF Pro, Google Sans, blinkMacSystemFont,arial;
+  margin-right: 2px;
+}
+.wM6W7d{
+  font-family: Google Sans,Arial,sans-serif;
+  cursor: pointer;
+  color: aliceblue !important;
+}
+.ExCKkf,.gLFyf,.ynRric{
+  color: aliceblue !important;
+}
+.z1asCe{
+  filter: aliceblue !important;
+}
+  .sbai{
+    color: aliceblue !important;
+  }
+  .z1asCe:hover svg{
+    transform: scaleX(-1) !important;
+    transition: 0.2s !important;
+  }
+  .z1asCe svg{
+    transition: 0.2s;
+  }
+  .ClJ9Yb{
+    color: aliceblue !important;
+  }
+.logo{
+    animation-name: col;
+        animation-duration: 5s;
+  cursor: pointer;
+        animation-iteration-count: infinite;
+        animation-play-state: running;
+        filter: drop-shadow(0px 0px 7px white);
+        animation-timing-function: linear;
+}   @keyframes col{
+        0%{
+            filter: hue-rotate(-1deg) drop-shadow(0px 0px 5px white);
+           
+        }
+        50%{
+          
+            filter: hue-rotate(305deg)drop-shadow(0px 0px 5px white);
+        }
+        100%{
+            filter: hue-rotate(-1deg) drop-shadow(0px 0px 5px white);
+           
+        }
+    }
+
+
+.ZFiwCf{
+  background-color:#0000007e !important ;
+  backdrop-filter: blur(15px);
+}
+.p8Jhnd{
+  background:#0000007e  !important;
+
+}
+
+.aj35ze{
+  fill: aliceblue !important;
+}
+.LGwnxb, .lg2F2d,.CYJS5e{
+  color: aliceblue !important;
+}
+.lg2F2d,.f6F9Be{
+    background-color:#0000007e !important;
+
+}
+.gMZyfc,.gMZyfc,.b0KoTc,.dfB0uf,.fbar a{
+  font-family: SF Pro,Google Sans, arial , sans-serif !important;
+  color: aliceblue !important;
+}
+.unknown_loc{
+  background: linear-gradient(90deg,rgb(255, 58, 91),rgb(255, 102, 0)) !important;
+  animation-name: col !important;
+        animation-duration: 5s;
+  cursor: pointer;
+        animation-iteration-count: infinite;
+        animation-play-state: running;
+     
+        animation-timing-function: linear;
+}
+.g0F6u,.KwU3F,.VtPCGb{
+  font-family: SF Pro,Google Sans, arial , sans-serif !important;
+  color: rgb(197, 197, 255) !important;
+}
+html body#gsr.srp div#main.main div#cnt.e9EfHf div#rcnt.YNk70c.NbTBrb.GyAeWb.tXI1nd div#center_col.s6JM6d.ufC5Cb.ZPOWwb.nUoqL div#botstuff div div table.AaVjTc tbody tr.mYW5bd td.YyVfkd.NKTSme span{
+   animation-name: col;;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+}
+}
+@-moz-document url-prefix("https://www.google.com/search?client=firefox-b-d&q=tromoSM"),
+                url-prefix("https://www.google.com/search?client=firefox-b-d&q=tromosm+"),
+               url-prefix("https://www.google.com/search?client=firefox-b-d&q=tromoSM+"),
+            url-prefix("https://www.google.com/search?client=firefox-b-d&q=tromosm") {
+  @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+              .QRYxYe {
+    color: transparent !important;
+    display: none !important;
+     opacity: 0 !important;
+    visibility: hidden !important; 
+  }
+  h3,.LC20lb,.VuuXrf,.VuuXrf,.p4wth em, .p4wth b,.p4wth em, .p4wth b,.VwiC3b{
+    font-family: Arial,Google Sans,inter, SF Pro, Google sans, arial  !important;
+  }
+  .LC20lb{
+      font-family: inter, SF Pro, Google sans, arial  !important;
+  }
+  .tF2Cxc.asEBEc{
+    animation-name: getout;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    filter: blur(5px);
+  }
+  .wHYlTd{
+    background: transparent !important;
+  }
+  @keyframes getout{
+    from{
+    opacity: 0;
+    filter: blur(inherit);
+
+    
+    transform: translateY(20px);
+    }to{
+    filter: blur(0px);
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  } }
+  
+@-moz-document url-prefix("https://www.google.com/search?client=firefox-b-d&q=SM"),
+                url-prefix("https://www.google.com/search?client=firefox-b-d&q=sm+"),
+               url-prefix("https://www.google.com/search?client=firefox-b-d&q=SM+"),
+               url-prefix("https://www.google.com/search?q=SM&sca_esv=399c0ef47b788551&hl=en&sxsrf=AE3TifOhwYvk_Uf-qkYZr-_k1WZMxTpRfw%3A1752393494423&source=hp&ei=FmdzaMf8F9aSseMPtLuEuAw&iflsig=AOw8s4IAAAAAaHN1JhlJYtTOqbpEMBSRVwAHaxWpF3Rn&ved=0ahUKEwjH3_W9rrmOAxVWSWwGHbQdAccQ4dUDCBc&uact=5&oq=SM&gs_lp=Egdnd3Mtd2l6IgJTTTIKECMYgAQYJxiKBTIQEC4YgAQY0QMYQxjHARiKBTIQEC4YgAQY0QMYQxjHARiKBTIKEAAYgAQYQxiKBTIQEAAYgAQYsQMYQxiDARiKBTILEAAYgAQYsQMYgwEyDhAuGIAEGLEDGMcBGK8BMhAQLhiABBjRAxhDGMcBGIoFMgoQABiABBhDGIoFMggQABiABBixA0jCE1DeD1juEHABeACQAQCYAV-gAbwBqgEBMrgBA8gBAPgBAZgCA6AC1QGoAgrCAg0QIxjwBRgnGMkCGOoCwgIHECMYJxjqAsICChAjGPAFGCcY6gKYAwrxBRI673LgNcpGkgcDMS4yoAemG7IHAzAuMrgHywHCBwUyLTIuMcgHFQ&sclient=gws-wiz"),
+               url-prefix("https://www.google.com/search?q=sm&sca_esv=399c0ef47b788551&hl=en&sxsrf=AE3TifOigmwu0tIF_C7cRtawxOV2EmsOLA%3A1752393410693&source=hp&ei=wmZzaOf5J92e4-EP0qDq2Aw&iflsig=AOw8s4IAAAAAaHN00u3G6MKJfOG7ooZ_3fFY69sTfru2&ved=0ahUKEwjn4v6VrrmOAxVdzzgGHVKQGssQ4dUDCBc&uact=5&oq=sm&gs_lp=Egdnd3Mtd2l6IgJzbTIKECMYgAQYJxiKBTIQEC4YgAQY0QMYQxjHARiKBTIQEC4YgAQY0QMYQxjHARiKBTIKEAAYgAQYQxiKBTIQEAAYgAQYsQMYQxiDARiKBTILEAAYgAQYsQMYgwEyDhAuGIAEGLEDGMcBGK8BMhAQLhiABBjRAxhDGMcBGIoFMgoQABiABBhDGIoFMggQABiABBixA0jpElCHBlj2B3ABeACQAQCYAW2gAdcBqgEDMC4yuAEDyAEA-AEBmAIDoAL2AagCCsICBxAjGCcY6gLCAg0QIxjwBRgnGMkCGOoCwgIKECMY8AUYJxjqApgDD_EFzGevF_xrtDWSBwMxLjKgB6YbsgcDMC4yuAfnAcIHBTItMS4yyAcZ&sclient=gws-wiz"),
+               url-prefix("https://www.google.com/search?q=SM&sca_esv=399c0ef47b788551&hl=en&sxsrf=AE3TifMDpqJ5Y5Fcy6-zRXyERHUQmka_sA%3A1752393451999&source=hp&ei=62ZzaM3ALYKb4-EP4bivsA4&iflsig=AOw8s4IAAAAAaHN0-3iba-zCZh50kzXDBF8P3OLDyEKJ&ved=0ahUKEwiN4sqprrmOAxWCzTgGHWHcC-YQ4dUDCBc&uact=5&oq=SM&gs_lp=Egdnd3Mtd2l6IgJTTTIKECMYgAQYJxiKBTIQEC4YgAQY0QMYQxjHARiKBTIQEC4YgAQY0QMYQxjHARiKBTIKEAAYgAQYQxiKBTIQEAAYgAQYsQMYQxiDARiKBTILEAAYgAQYsQMYgwEyDhAuGIAEGLEDGMcBGK8BMhAQLhiABBjRAxhDGMcBGIoFMgoQABiABBhDGIoFMggQABiABBixA0isBlAAWL4BcAB4AJABAJgBYqABwgGqAQEyuAEDyAEA-AEBmAICoALWAZgDAJIHAzAuMqAHphuyBwMwLjK4B9YBwgcFMi0xLjHIBxA&sclient=gws-wiz"),
+            url-prefix("https://www.google.com/search?client=firefox-b-d&q=sm") {
+
+.wHYlTd{
+    background: transparent !important;
+  }      
+ #rcnt{
+    background: linear-gradient(0deg, rgba(255, 74, 105, 0.479),white) !important;
+  }.RDmXvc{
+    background: rgba(255, 152, 241, 0) !important;
+    backdrop-filter: blur(0px);
+  }
+  html:not(.zAoYTe) [tabindex]{
+background: transparent !important; 
+  }
+  .in7vHe.FR7ZSc.FR7ZSc .niO4u .kHtcsd,.ZFiwCf{
+    backdrop-filter: blur(15px);
+    border:  none !important;
+    background-color: #ff81d97c !important;
+
+  }
+
+  .in7vHe.FR7ZSc.FR7ZSc .niO4u .kHtcsd span{
+    color: aliceblue !important
+    ;
+  }
+  .omFXYd, .KMCbD,.Esev1b,.iRPzcb{
+    border-bottom:  1px solid #ff81d97c !important;
+  }.uRG8ge {
+  border-top:  1px solid #ff81d97c !important;
+}
+  .akqY6{
+    background: #ff81d97c !important;
+  }
+  .NVbCr,span.SJajHc:first-child{
+    filter: brightness(100);
+  }
+  html body#gsr.srp div#main.main div#cnt.e9EfHf div#rcnt.YNk70c.NbTBrb.GyAeWb div#center_col.s6JM6d.ufC5Cb div#botstuff div div table.AaVjTc tbody tr.mYW5bd td.YyVfkd.NKTSme span.SJajHc{
+    filter: brightness(1) hue-rotate(312deg)
+    ;
+  }
+
+  html body#gsr.srp div#searchform.CvDJxb.YNk70c div.NDnoQ.P3mIxe form#tsf.tsf div div.A8SBwf div.RNNXgb div.SDkEP div.fM33ce.dRYYxd div.BKRPef div.M2vV3.vOY7J span.ExCKkf.z1asCe.rzyADb svg path,html body#gsr.srp div#searchform.CvDJxb.YNk70c div.NDnoQ.P3mIxe form#tsf.tsf div div.A8SBwf div.RNNXgb button.HZVG1b.Tg7LZd div.zgAlFc span.KlpaXd.z1asCe.MZy1Rb svg{
+    filter: brightness(100) !important;
+  }
+  .suSUf,.OJeuxf .kHtcsd{
+    background-color: #ff81d97c !important;
+  }.in7vHe{
+    border:  1px solid #ff81d9ab !important;
+  }.JzISke {
+  filter: hue-rotate(106deg);
+}.QVRyCf, .cUnQKe .aoRk1c .QVRyCf {
+    background: linear-gradient(90deg, #ff81d97c  50%, #ff81d97c 50%) no-repeat 75% 0 !important;
+            }
+            @media (prefers-reduced-motion: no-preference) {
+  .cUnQKe .aoRk1c .ILfuVd b {
+    background: linear-gradient(90deg,#ff81d97c 50%,#ff81d97c 50%) no-repeat 75% 0 !important;}}
+    
+.minidiv .sfbg{
+  height: 72px;
+  overflow: hidden;
+  background: #ff3eb563 !important; 
+  backdrop-filter: blur(15px) !important;
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.28) !important;
+}
+.eFM0qc.BCF2pd{
+  background: transparent !important;
+}
+.jEYSNd{
+  border: NONE !important;
+}
+.uyS0S{
+  background-color: transparent !important
+  ;
+}
+
+html body#gsr.srp div#main.main div#cnt.e9EfHf div#rcnt.YNk70c.NbTBrb.GyAeWb div#center_col.s6JM6d.ufC5Cb div#res.eqAnXb div#search div div#rso.dURPMd div.ULSxyf div.MjjYud div.A6K0A div div.Ww4FFb.vt6azd{
+  background: transparent !important;
+}
+.jEYSNd:hover{
+  background: inherit !important;
+}
+.uVhVib{
+  color: hwb(340 33% 0%);
+}.gb_E, .gb_F ,.z1asCe svg{
+  fill: #ff0078 ;
+}.p8Jhnd,.Bi9oQd{
+  background: #ff3eb563 !important; 
+
+} 
+.KTAFWb{
+    grid-area: gdePb;
+  background: #ffa4d4;
+  border-radius: 500px;
+  padding: 0px 0px 0px 5px !important;
+  width: fit-content;
+}.dM1Yyd .jEYSNd {
+  margin:0px !important;
+}
+.aj35ze{
+  transition: 0.3s;
+}
+.NQYJvc .clOx1e, .NQYJvc .d3o3Ad,.LGwnxb{
+  font-family: SF Pro,BlinkMacSystemFont, -apple-system, Google sans, helvetica neue, ;
+}
+.p8Jhnd:hover .aj35ze,.JlqpRe:hover .aj35ze{
+  transform: scaleX(-1) !important;
+}
+.eFM0qc.BCF2pdP{
+  background: transparent  !important;
+}
+.gMZyfc,.gMZyfc,.b0KoTc,.dfB0uf,.fbar a{
+  font-family: SF Pro,Google Sans, arial , sans-serif !important;
+  color: aliceblue !important;
+}
+.unknown_loc{
+  background: rgb(255, 58, 173) !important;
+  animation: none !important;
+}
+.g0F6u,.KwU3F,.VtPCGb{
+  font-family: SF Pro,Google Sans, arial , sans-serif !important;
+  color: rgb(255, 154, 250) !important;
+}.yMAEcf,.aajZCb,html body#gsr.srp div#searchform.CvDJxb.YNk70c div.NDnoQ.P3mIxe form#tsf.tsf div div.A8SBwf.emcav div#_jR5saOLmL96O4-EPloe8wAc_5 div.UUbT9.EyBRub div.aajZCb{
+  color: aliceblue !important;
+  
+  background: hsla(332, 100%, 59%, 0.494) !important; 
+  backdrop-filter: blur(25px) !important;
+}
+
+.RNNXgb{
+  background-color:hsla(332, 84%, 43%, 0.494) !important;
+  color: aliceblue !important;
+  border: none !important;
+}.sb43{
+  filter: brightness(1000);
+}
+.D9010b{
+  background-color: #ff0078 !important;
+  border-color: #ff0078 !important;
+}}
+
+
+/*
+                                                             BONUS TIPS [recommended if u know what ur doin] : 
+ 
+  01. Remove @font-face for faster loading  -----(the fonts may cause google to load slower and removing this helps google load faster. why: the 'SF Pro' is hosted on github and github servers are slower than google and the font files are not in web font format. )                                                             
+  02. Remove   [.z1asCe:hover svg] and [.z1asCe svg] to remove the svg on hover flip effect
+ 
+                                                            CLASSES FOR ELEMENTS:[for dev guys out there so they dont have to use inspect element ahh thing]
+                                                          
+All pinned svgs in the header -------- .XDyW0e,.nDcEnd,.z1asCe svg,.gb_F,.minidiv .goxjub,.minidiv .Gdd5U,.minidiv .Tg7LZd svg,html body#gsr.srp div#searchform.CvDJxb.YNk70c div.NDnoQ.P3mIxe form#tsf.tsf div div.A8SBwf.pD4qTd.emcav div#_Dh9saNb3H5iXseMP-8fKyQg_5 div.UUbT9.EyBRub div.aajZCb div#Alh6id.mkHrUc div.erkvQe div.OBMEnb ul.G43f7e li.sbct.PZPZlf div.eIPGRd div.sbic.sb43
+Header ---------- .minidiv .sfbg
+search bar, Search bar expanded suggestions ----- .yMAEcf,.aajZCb,html body#gsr.srp div#searchform.CvDJxb.YNk70c div.NDnoQ.P3mIxe form#tsf.tsf div div.A8SBwf.emcav div#_jR5saOLmL96O4-EPloe8wAc_5 div.UUbT9.EyBRub div.aajZCb
+pinned scrolled svg --------.gb_F:hover,.minidiv .goxjub:hover,.minidiv .Gdd5U:hover,.minidiv .Tg7LZd svg:hover
+Word logo on  the home page ----- html body div.L3eUgb div.o3j99.LLD4me.yr19Zb.LS8OJ div.k1zIA.rSk4se svg.lnXdpd
+Single search result on suggestions --------- .sbct
+Main buttons on the home page --------- .lJ9FBc input[type="submit"], .f1pnbf, .gbqfba
+none bolded text on a single search result that has a bolded span element --------- .IDVnvc
+search and remove search ui icon ----- .z1asCe
+word logo pinned fixed in the header ------ .logo
+
+© 2025 - tromoSM. All rights reserved (css)
+Contact Us - @tromoSM (x.com)
+
+Last updated on {2025.07.13 as YYYY.MM.DD}
+version --1..55 >
+*/
